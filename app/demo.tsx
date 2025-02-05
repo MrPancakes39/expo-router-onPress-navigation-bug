@@ -3,13 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { Container } from '~/components/Container';
 
-export default function Home() {
+export default function Demo() {
   return (
     <Container>
       <View style={styles.center}>
-        <Text>Home</Text>
-        <Link href="/demo">
-          <Text>Go to Demo</Text>
+        <Text>Demo</Text>
+        <Link href="/">
+          <Text>Go to Home</Text>
         </Link>
       </View>
     </Container>
